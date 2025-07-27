@@ -1,46 +1,43 @@
-# 💼 Personal Portfolio Website
+# 🌐 Personal Portfolio Website
 
-This is my personal developer portfolio built with [your stack – e.g., HTML/CSS/JavaScript | React.js | Tailwind CSS | Next.js, etc.]. It highlights my skills, projects, experience, and provides easy ways to contact me.
+A modern, responsive portfolio built using **React**, **Tailwind CSS**, and **Framer Motion**, designed to showcase projects, skills, and contact details with a smooth, dark/light theme experience.
 
----
+## 🔗 Live Site
 
-## 🚀 Features
-
-- ✨ Beautiful, responsive design
-- 🌙 Light/Dark theme toggle with smooth transitions
-- 💻 Live project previews with GitHub links
-- 📧 Interactive contact section (mailto, tel links)
-- 📱 Mobile-first and accessible design
-- 🎨 Animated components using [e.g., Framer Motion or AOS]
-- 🌐 Deployed on [e.g., Vercel, Netlify, GitHub Pages]
+👉 [Visit Portfolio](https://koduruprudhviportfolio.netlify.app)
 
 ---
 
-## 🧑‍💻 Tech Stack
+## ✨ Features
 
-- **Frontend**: React.js, HTML5, CSS3, Tailwind CSS  
-- **Animations**: AOS / Framer Motion  
-- **Icons**: Font Awesome / Heroicons  
-- **Deployment**: Vercel / Netlify  
-- *(update based on what you used)*
-
----
-
-## 📸 Screenshots
-
-> *(You can add images like a dark mode screenshot, mobile view, or hero section here)*
+- 🌙 **Dark & Light Themes** — Toggle with smooth transitions; default is dark
+- 📱 **Responsive Design** — Optimized for desktop, tablet, and mobile
+- 💡 **Interactive UI** — Animations powered by Framer Motion for dynamic feel
+- 📂 **Projects Section** — Showcases GitHub-hosted projects with external links
+- 📞 **Contact Section** — Clickable `mailto:` and `tel:` links for direct interaction
+- 🧠 **Clean Structure** — Reusable components for maintainability and performance
 
 ---
 
-## 📂 Folder Structure
+## 🛠️ Tech Stack
+
+- **Framework:** React
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Deployment:** Netlify
+
+---
+
+## 📂 Folder Overview
 
 ```bash
-root/
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   └── assets/
-├── README.md
-├── package.json
-└── ...
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Projects.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+├── assets/
+├── App.jsx
+└── index.js
