@@ -37,8 +37,7 @@ Nope. I built this with **AI at my side** — because why reinvent buttons and n
 ## 🚀 Features
 
 - 🌗🕒 **Smart theme detection**: Automatically uses light or dark mode depending on the time of day, so your eyes stay comfy 24/7.
-- 
-- 📬 **Working Contact Form** — Yup, you can actually send me a message through the site. No fake buttons here — thanks to **Formspree**, you drop your email, write your message, and it pings my inbox like magic.
+- 📬 **Working Contact Form** — Yup, you can actually send me a message through the site. No fake buttons here — thanks to **Formspree**.
 - 🧾 **Projects & Certifications That Open** — Every single project and certificate shown is clickable and viewable — no "coming soon" lies, just the real stuff.
 - 📱 **Responsive Design** (mobile, tablet, fridge — it just works)
 - 🎬 **Smooth Animations** via Framer Motion
