@@ -11,7 +11,7 @@
 
 ## 🔗 Live Demo
 
-👉 [prudhvicode.netlify.app](https://prudhvicode.netlify.app)  
+👉 [prudhvicode.netlify.app](https://koduruprudhviportfolio.netlify.app)  
 (Best viewed with dark mode on, but hey — light mode works now too. Thanks AI.)
 
 ---
@@ -36,7 +36,7 @@ Nope. I built this with **AI at my side** — because why reinvent buttons and n
 
 ## 🚀 Features
 
-- 🌗 **Dark/Light Mode Toggle** (because Gen Z portfolios must glow)
+- 🌗🕒 **Smart theme detection**: Automatically uses light or dark mode depending on the time of day, so your eyes stay comfy 24/7.
 - 📱 **Responsive Design** (mobile, tablet, fridge — it just works)
 - 🎬 **Smooth Animations** via Framer Motion
 - 💼 **Projects Section** with live links so recruiters can judge me instantly
