@@ -265,6 +265,13 @@
             padding: 0 0.25rem;
             color: var(--accent-color);
         }
+        .card img {
+            width: 100%;       /* Fill the full width of the card */
+            height: auto;     /* Fixed height (adjust as needed) */
+            object-fit: contain; /* Crops the image proportionally */
+            border-top-left-radius: 16px; /* Match your card's radius */
+            border-top-right-radius: 16px;
+}
     </style>
 </head>
 <body class="dark-mode">
@@ -281,7 +288,7 @@
                 <a href="#skills" class="hover:text-accent-hover transition-colors">Skills</a>
                 <a href="#projects" class="hover:text-accent-hover transition-colors">Projects</a>
                 <a href="#experience" class="hover:text-accent-hover transition-colors">Experience</a>
-                <a href="#education" class="hover:text-accent-hover transition-colors">Education</a>
+                <a href="#certifications" class="hover:text-accent-hover transition-colors">Certifications</a>
                 <a href="#resume" class="hover:text-accent-hover transition-colors">Resume</a>
                 <a href="#contact" class="hover:text-accent-hover transition-colors">Contact</a>
             </div>
@@ -468,37 +475,57 @@
                 </div>
             </div>
         </section>
-
-        <!-- Education & Certifications Section -->
-        <section id="education" class="py-20">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-12 fade-in-section">
-                    <h2 class="text-3xl md:text-4xl font-bold">Education & Certifications</h2>
-                    <div class="w-20 h-1 bg-cyan-500 mx-auto mt-4"></div>
-                </div>
-                <div class="max-w-3xl mx-auto">
-                    <div class="card p-6 rounded-lg mb-8 fade-in-section interactive-card">
-                        <h3 class="text-2xl font-bold">B.Tech in Data Science 🎓</h3>
-                        <p class="text-accent font-semibold">RGMCET (Autonomous) | 2022 - 2026</p>
-                        <p class="mt-2" style="color: var(--text-secondary);">Relevant Courses: Machine Learning, SQL Databases, Big Data Technologies, Data Visualization, Cloud Computing (AWS).</p>
-                    </div>
-                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <a href="https://www.credly.com/badges/1271e567-0173-4cc5-9801-a96c99318233/linked_in_profile" target="_blank" rel="noopener noreferrer" class="card block p-6 rounded-lg text-center fade-in-section interactive-card" style="transition-delay: 100ms;">
-                            <i class="fab fa-aws text-4xl text-accent mb-4"></i>
-                            <h3 class="text-xl font-semibold">AWS Cloud Practitioner</h3>
-                        </a>
-                        <a href="http://credentials.edx.org/credentials/c79e9e15172a4d45b44f586893fef103/" target="_blank" rel="noopener noreferrer" class="card block p-6 rounded-lg text-center fade-in-section interactive-card" style="transition-delay: 200ms;">
-                            <i class="fab fa-ibm text-4xl text-accent mb-4"></i>
-                            <h3 class="text-xl font-semibold">IBM Data Analyst</h3>
-                        </a>
-                        <a href="https://cs50.harvard.edu/certificates/fa9c9f7a-b2af-4959-b7ba-86d57cfe1e55" target="_blank" rel="noopener noreferrer" class="card block p-6 rounded-lg text-center fade-in-section interactive-card" style="transition-delay: 300ms;">
-                            <i class="fas fa-database text-4xl text-accent mb-4"></i>
-                            <h3 class="text-xl font-semibold">CS50'S SQL Introduction</h3>
-                        </a>
-                    </div>
-                </div>
+<!-- Education Section -->
+<section id="education" class="py-19">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12 fade-in-section">
+            <h2 class="text-3xl md:text-4xl font-bold">Education</h2>
+            <div class="w-20 h-1 bg-cyan-500 mx-auto mt-4"></div>
+        </div>
+        <div class="max-w-3xl mx-auto">
+            <div class="card p-6 rounded-lg mb-8 fade-in-section interactive-card">
+                <h3 class="text-2xl font-bold">B.Tech in Data Science 🎓</h3>
+                <p class="text-accent font-semibold">RGMCET (Autonomous) | 2022 - 2026</p>
+                <p class="mt-2" style="color: var(--text-secondary);">Relevant Courses: Machine Learning, SQL Databases, Big Data Technologies, Data Visualization, Cloud Computing (AWS).</p>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certifications" class="py-20">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12 fade-in-section">
+            <h2 class="text-3xl md:text-4xl font-bold">Certifications</h2>
+            <div class="w-20 h-1 bg-cyan-500 mx-auto mt-4"></div>
+        </div>
+        <div class="max-w-3xl mx-auto">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <a href="https://www.credly.com/badges/1271e567-0173-4cc5-9801-a96c99318233/linked_in_profile" target="_blank" rel="noopener noreferrer" class="card block p-6 rounded-lg text-center fade-in-section interactive-card" style="transition-delay: 100ms;">
+                    <img src="https://i.postimg.cc/G3FS9CF9/image.png" alt="AWS Cloud Practitioner" class="w-full h-auto mx-auto mb-4 object-contain rounded-md">
+                    <h3 class="text-xl font-semibold">AWS Cloud Practitioner</h3>
+                </a>
+                <a href="http://credentials.edx.org/credentials/c79e9e15172a4d45b44f586893fef103/" target="_blank" rel="noopener noreferrer" class="card block p-6 rounded-lg text-center fade-in-section interactive-card" style="transition-delay: 200ms;">
+                    <img src="https://i.postimg.cc/7Z83zGqk/image.png" alt="IBM Data Analyst" class="w-full h-auto mx-auto mb-4 object-contain rounded-md">
+                    <h3 class="text-xl font-semibold">IBM Data Analyst</h3>
+                </a>
+                <a href="https://cs50.harvard.edu/certificates/fa9c9f7a-b2af-4959-b7ba-86d57cfe1e55" target="_blank" rel="noopener noreferrer" class="card block p-6 rounded-lg text-center fade-in-section interactive-card" style="transition-delay: 300ms;">
+                    <img src="https://i.postimg.cc/MKhcLhLb/image.png" alt="CS50's SQL Introduction" class="w-full h-auto mx-auto mb-4 object-contain rounded-md">
+                    <h3 class="text-xl font-semibold">CS50's SQL Introduction</h3>
+                </a>
+                <a href="https://coursera.org/share/a9059b3f194dad14a241f890206acc84" target="_blank" rel="noopener noreferrer" class="block p-8 rounded-2xl text-center shadow-lg bg-white hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300">
+                    <div class="flex flex-col items-center">
+                        <img src="https://i.postimg.cc/Xqpx7R47/image.png" alt="Google Advanced Data Analytics" class="w-full h-auto mx-auto mb-6 object-contain rounded-md">
+                        <h3 class="text-lg md:text-xl font-bold text-gray-800">Google Advanced Data Analytics</h3>
+                        <p class="mt-2 text-sm text-gray-500">Professional Certificate from Coursera</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
         <!-- Resume Section -->
         <section id="resume" class="py-20 section-bg">
