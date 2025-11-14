@@ -23,20 +23,20 @@ Nope. I built this with **AI at my side** — because why reinvent buttons and n
 
 ---
 
-## 🤖 How AI Helped Me:
+##  How AI Helped Me:
 
-- 🧱 Generated the entire structure: hero section, navbar, animations — done.
-- 🌙 Dark/Light themes? I just said “make it pretty” and AI pulled out a color palette.
-- 🎯 Fixed responsiveness issues that I didn’t even *know* were issues yet.
-- ⚙️ Animated scroll effects like I had a design degree (I don’t).
-- 🔗 Told it: “Make my email clickable.” AI: “Say less.”
-- 🧠 In short: I gave vibes. AI gave code.
+-  Generated the entire structure: hero section, navbar, animations — done.
+-  Dark/Light themes? I just said “make it pretty” and AI pulled out a color palette.
+-  Fixed responsiveness issues that I didn’t even *know* were issues yet.
+-  Animated scroll effects like I had a design degree (I don’t).
+-  Told it: “Make my email clickable.” AI: “Say less.”
+-  In short: I gave vibes. AI gave code.
 
 ---
 
 ## 🚀 Features
 
-- 🌗🕒 **Smart theme detection**: Automatically uses light or dark mode depending on the time of day, so your eyes stay comfy 24/7.
+- 🕒 **Smart theme detection**: Automatically uses light or dark mode depending on the time of day, so your eyes stay comfy 24/7.
 - 📬 **Working Contact Form** — Yup, you can actually send me a message through the site. No fake buttons here — thanks to **Formspree**.
 - 🧾 **Projects & Certifications That Opens** — Every single project and certificate shown is clickable and viewable — no "coming soon" lies, just  real stuff.
 - 📱 **Responsive Design** (mobile, tablet, fridge — it just works)
